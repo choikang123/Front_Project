@@ -1,0 +1,32 @@
+header{
+  /* 헤더부분의 마진 길이 넓이 설정 */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 1rem;
+}
+header .container{
+  /* 컨테이너 안에 있는 클래스들 h1,ul,li,button 모든 버튼 클래스에 적용*/
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+header button{
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+header h1 button{
+  font-size: 2rem;
+  font-weight: bold;
+}
+header nav ul{
+  display: flex;
+}
+header nav ul li{
+  padding: 10px;
+}
+header nav ul li button{
+ font-size: 1.25rem;
+}
